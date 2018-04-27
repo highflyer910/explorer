@@ -74,7 +74,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-  background-image: linear-gradient(to right, #d556ff, #590b72);
+  background-image: linear-gradient(to right, #4443a8, #33327c);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: .2rem;
@@ -156,10 +156,10 @@ body {
     background-color: #fff; }
 
 .btn--violet {
-  background-color: #511a59;
+  background-color: #33327c;
   color: #fff; }
   .btn--violet::after {
-    background-color: #511a59; }
+    background-color: #33327c; }
 
 .btn::after {
   content: "";
@@ -179,15 +179,15 @@ body {
 
 .btn-text:link, .btn-text:visited {
   font-size: 1.6rem;
-  color: #511a59;
+  color: #33327c;
   display: inline-block;
   text-decoration: none;
-  border-bottom: 1px solid #511a59;
+  border-bottom: 1px solid #33327c;
   padding: 3px;
   transition: .2s; }
 
 .btn-text:hover {
-  background-color: #511a59;
+  background-color: #33327c;
   color: #fff;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   transform: translateY(-2px); }
@@ -217,7 +217,7 @@ body {
     .card__side--back {
       transform: rotateY(180deg); }
       .card__side--back-1 {
-        background-image: linear-gradient(to right bottom, #d556ff, #590b72); }
+        background-image: linear-gradient(to right bottom, #4443a8, #33327c); }
   .card:hover .card__side--front {
     transform: rotateY(180deg); }
   .card:hover .card__side--back {
@@ -231,11 +231,11 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #d556ff, #590b72), url(../img/nat-5.jpg); }
+      background-image: linear-gradient(to right bottom, #4443a8, #33327c), url(../img/nat-5.jpg); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #d556ff, #590b72), url(../img/nat-6.jpg); }
+      background-image: linear-gradient(to right bottom, #4443a8, #33327c), url(../img/nat-6.jpg); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #d556ff, #590b72), url(../img/nat-7.jpg); }
+      background-image: linear-gradient(to right bottom, #4443a8, #33327c), url(../img/nat-7.jpg); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -251,7 +251,7 @@ body {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
     .card__heading-span--1 {
-      background-image: linear-gradient(to right bottom, rgba(213, 86, 255, 0.85), rgba(89, 11, 114, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(68, 67, 168, 0.85), rgba(51, 50, 124, 0.85)); }
   .card__details {
     padding: 3rem; }
     .card__details ul {
@@ -302,7 +302,7 @@ body {
       left: 20%;
       top: 10rem; }
     .composition__photo:hover {
-      outline: 1.5rem solid #511a59;
+      outline: 1.5rem solid #33327c;
       transform: scale(1.05) translateY(-0.5rem);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
       z-index: 20; }
@@ -321,7 +321,7 @@ body {
     font-size: 6rem;
     margin-bottom: .5rem;
     display: inline-block;
-    background-image: linear-gradient(to right, #d556ff, #590b72);
+    background-image: linear-gradient(to right, #4443a8, #33327c);
     -webkit-background-clip: text;
     color: transparent; }
   .feature-box:hover {
@@ -349,7 +349,7 @@ body {
     position: relative; }
   .story__img {
     height: 100%;
-    transform: translateX(-4rem) scale(1.4);
+    transform: translateX(-6rem) scale(1.4);
     backface-visibility: hidden;
     transition: all .5s; }
   .story__text {
@@ -391,7 +391,7 @@ body {
   .form__input:focus {
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
-    border-bottom: 3px solid #511a59; }
+    border-bottom: 3px solid #33327c; }
   .form__input:focus:invalid {
     border-bottom: #777; }
   .form__input::-webkit-input-placeholder {
@@ -426,7 +426,7 @@ body {
 .form__radio-button {
   height: 3rem;
   width: 3rem;
-  border: 5px solid #511a59;
+  border: 5px solid #33327c;
   border-radius: 50%;
   display: inline-block;
   position: absolute;
@@ -442,7 +442,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #511a59;
+    background-color: #33327c;
     opacity: 0;
     transition: opacity .3s; }
 
@@ -456,7 +456,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(213, 86, 255, 0.8), rgba(89, 11, 114, 0.8)), url(../img/nat-4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(68, 67, 168, 0.8), rgba(51, 50, 124, 0.8)), url(../img/nat-4.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
@@ -474,7 +474,7 @@ body {
 
 .section-book {
   padding: 15rem 0;
-  background-image: linear-gradient(to right bottom, #d556ff, #590b72); }
+  background-image: linear-gradient(to right bottom, #4443a8, #33327c); }
 
 .book {
   background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
@@ -487,7 +487,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(213, 86, 255, 0.8), rgba(89, 11, 114, 0.8)), url("http://www.myotonic.org/sites/default/files/Airplane.jpg");
+  background-image: linear-gradient(to right bottom, rgba(68, 67, 168, 0.8), rgba(51, 50, 124, 0.8)), url(../img/1.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -560,7 +560,7 @@ body {
     display: inline-block;
     transition: all .2s; }
   .footer__link:hover, .footer__link:active {
-    color: #a633b7;
+    color: #4443a8;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
     transform: rotate(5deg) scale(1.3); }
   .footer__copyright {

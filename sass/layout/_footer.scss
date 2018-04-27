@@ -46,7 +46,7 @@
 
         &:hover,
         &:active {
-            color: $color-primary-2;
+            color: $color-primary-light;
             box-shadow: 0 1rem 2rem rgba($color-black, .4);
             transform: rotate(5deg) scale(1.3);
         }
