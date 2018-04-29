@@ -67,6 +67,14 @@
 	&__img{
       display: block;
       width: 100%;
+
+      @include respond(tab-port){
+        padding: 9rem 0 .1rem 0;
+      }
+
+      @include respond(tab-land){
+        padding: 4.5rem 0 1.5rem 0;
+      }
 	}
 
 	&__text{

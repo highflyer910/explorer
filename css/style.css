@@ -619,6 +619,12 @@ body {
   .popup__img {
     display: block;
     width: 100%; }
+    @media (max-width: 56.25em) {
+      .popup__img {
+        padding: 9rem 0 .1rem 0; } }
+    @media (max-width: 75em) {
+      .popup__img {
+        padding: 4.5rem 0 1.5rem 0; } }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
@@ -808,8 +814,9 @@ body {
     float: right; }
     @media (max-width: 56.25em) {
       .footer__copyright {
-        padding: 8rem 0;
-        float: none; } }
+        width: 100%;
+        float: none;
+        text-align: center; } }
 
 .navigation__checkbox {
   display: none; }
