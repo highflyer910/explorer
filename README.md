@@ -1,4 +1,4 @@
 # explorer
 
-Front page of traveling website. 
+Traveling website. 
 Designed By Jonas Schmedtmann.
