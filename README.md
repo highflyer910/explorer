@@ -1,4 +1,14 @@
-# explorer
+## BUILD SETUP
 
-Traveling website. 
-Designed By Jonas Schmedtmann.
+
+```bash
+# install dependencies
+$ npm install
+
+# launch server
+$npm start
+```
+
+
+
+
