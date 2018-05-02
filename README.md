@@ -1,4 +1,4 @@
-## BUILD SETUP
+## Build Setup
 
 
 ```bash
